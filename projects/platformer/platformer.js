@@ -67,6 +67,8 @@ createCollectable('diamond',10,600)
     // Your wall choices are: 'top' 'left' 'right' and 'bottom'
     // example usage: createCannon(side, position, delay, width, height)
 createCannon("right",450 ,1000,10,20);
+createCannon("left",250,1000,30,10)
+createCannon("top",150,1000,20,10)
 
 
 
