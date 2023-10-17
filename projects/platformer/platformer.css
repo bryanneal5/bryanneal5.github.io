@@ -3,9 +3,8 @@ body {
 }
 
 canvas {
-  background-color: lightgray;
+  background-color: purple;
 }
 
-img {
-  display: none;
+img {<img> 
 }
