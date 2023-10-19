@@ -62,7 +62,7 @@
 			//////////////////////////////////////////////////////////////////
 			
 			// TODO 2 - Variable declarations 
-			
+			var positonX = 3
 
 			
 			/* 
@@ -70,7 +70,10 @@
 			it should move the Box to a new location. If the box drifts off the screen
 			turn it around! 
 			*/ moveboxto(boardwidth)
-			function update()  {
+			function update() 
+			 {
+				postionX = postionX +10
+	
 				moveBoxTo(positionX);
 
 
@@ -82,7 +85,7 @@
 			the left side of the screen.
 			*/
 			function handleBoxClick() {
-				
+				positonX=0;
 
 
 			};
